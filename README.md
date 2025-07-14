@@ -1,2 +1,1 @@
-# remove-ensuremath
-Removes all instances of \ensuremath in LaTeX code
+Removes all instances of \ensuremath{} from the code without affecting other curly bracket code layering.
