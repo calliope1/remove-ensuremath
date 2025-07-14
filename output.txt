@@ -1,0 +1,33 @@
+%% FONTS %%
+
+% mathsf
+\newcommand{\AC}{\mathsf{AC}}
+\newcommand{\DC}{\mathsf{DC}}
+\newcommand{\GCH}{\mathsf{GCH}}
+\newcommand{\HS}{\mathsf{HS}}
+\newcommand{\SVC}{\mathsf{SVC}}
+\newcommand{\WO}{\mathsf{WO}}
+\newcommand{\ZF}{\mathsf{ZF}}
+\newcommand{\ZFC}{\mathsf{ZFC}}
+
+% mathoperators
+
+\DeclareMathOperator{\Add}{Add}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\Ord}{Ord}
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\sym}{sym}
+
+% mathbb
+\newcommand{\bbP}{\mathbb{P}}
+\newcommand{\Q}{\mathbb{Q}}
+
+%% RELATIONS %%
+
+\newcommand{\comp}{\mathrel{\|}}
+\newcommand{\forces}{\mathrel{\Vdash}}
+\newcommand{\res}{\nobreak\mskip2mu\mathpunct{}\nonscript
+  \mkern-\thinmuskip{\upharpoonright}\mskip6muplus1mu\relax} % copied from the definition of \colon from amssymb

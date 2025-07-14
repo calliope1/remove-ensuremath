@@ -1,0 +1,33 @@
+%% FONTS %%
+
+% mathsf
+\newcommand{\AC}{\ensuremath{\mathsf{AC}}}
+\newcommand{\DC}{\ensuremath{\mathsf{DC}}}
+\newcommand{\GCH}{\ensuremath{\mathsf{GCH}}}
+\newcommand{\HS}{\ensuremath{\mathsf{HS}}}
+\newcommand{\SVC}{\ensuremath{\mathsf{SVC}}}
+\newcommand{\WO}{\ensuremath{\mathsf{WO}}}
+\newcommand{\ZF}{\ensuremath{\mathsf{ZF}}}
+\newcommand{\ZFC}{\ensuremath{\mathsf{ZFC}}}
+
+% mathoperators
+
+\DeclareMathOperator{\Add}{Add}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\Ord}{Ord}
+\DeclareMathOperator{\Proj}{Proj}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\sym}{sym}
+
+% mathbb
+\newcommand{\bbP}{\ensuremath{\mathbb{P}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+
+%% RELATIONS %%
+
+\newcommand{\comp}{\ensuremath{\mathrel{\|}}}
+\newcommand{\forces}{\ensuremath{\mathrel{\Vdash}}}
+\newcommand{\res}{\ensuremath{\nobreak\mskip2mu\mathpunct{}\nonscript
+  \mkern-\thinmuskip{\upharpoonright}\mskip6muplus1mu\relax}} % copied from the definition of \colon from amssymb
